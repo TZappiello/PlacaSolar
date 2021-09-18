@@ -85,6 +85,10 @@
   height: 0;
 }
 
+.active {
+	background: #DEB887;
+}
+
 .banner img{
 	margin-top: 69px;
 	margin-bottom: -6px;
