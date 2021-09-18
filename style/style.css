@@ -1,0 +1,174 @@
+
+*, *:after, *:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.menuall {
+	position: fixed;
+	display: block;
+	background-color:#FFDAB9;
+	width: 100%;
+}
+
+.logo {
+	width: 250px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.logo img {
+	width: 200px;
+}
+
+.menu{
+	margin-top: 5px;
+	float: right;
+}
+
+.menu .menu-list, .menu .sub-menu{
+  list-style: none;
+}
+
+.menu a{
+  color: #FF8C00;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing:0.2em;
+}
+.menu > .menu-list > li{
+  float: left;
+  position: relative;
+}
+.menu > .menu-list > li > a {
+  padding: 20px;
+  margin: 0 5px;
+}
+.menu > .menu-list > li:hover a {
+  background: #D2B48C;
+}
+.menu > .menu-list > li:hover > .sub-menu {
+  display: block;
+}
+.menu > .menu-list > li > .sub-menu {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  background: blue;
+  min-width: 200px;
+  z-index: 1000;
+  display: none;
+}
+.menu > .menu-list > li > .sub-menu > li > a {
+  padding: 10px 20px;
+
+}
+.menu > .menu-list > li > .sub-menu > li:hover > a {
+   background: #DEB887	;
+  
+}
+.menu:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.banner img{
+	margin-top: 69px;
+	margin-bottom: -6px;
+}
+
+.infos {
+	padding-top: 25px;
+	height: 155px;
+	background-color: #CD853F;
+}
+
+.infos p {
+	color: #FFF8DC;
+	font-size: 30px;
+}
+.dica {
+	padding: 35px;
+	width: 100%;
+	height: 250px;
+}
+.dica1 {
+	margin-left: 90px;
+	margin-right: 65px;
+	font-size: 30px;	
+	font-family: sans-serif;
+	width: 25%;
+	float: left;
+}
+.dica2 {
+	margin-right: 65px;
+	font-size: 30px;	
+	font-family: sans-serif;
+	float: left;
+	width: 25%;
+}
+.dica3 {
+	font-size: 30px;	
+	font-family: sans-serif;
+	float: left;
+	width: 25%;
+}
+
+.rodape {
+	background-color: #3B6B79;
+	color: #FFFFF0;
+	width: 100%;
+	height: 120px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: -6px;
+}
+
+.rodainfo1 {
+	margin-left: 90px;
+	margin-right: 65px;
+	font-size: 30px;	
+	font-family: sans-serif;
+	width: 30%;
+	float: left;
+}
+
+.rodainfo2 {
+	width: 26%;
+	float: left;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+}
+
+.rodainfo2 a {
+		color: #FFFFF0;
+
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	padding: 2px;
+}
+
+.rodainfo3 {
+	width: 30%;
+	float: left;
+}
+
+.rodainfo3 img{
+	width: 25px;
+}
